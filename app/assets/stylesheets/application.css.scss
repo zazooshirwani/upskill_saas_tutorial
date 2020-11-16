@@ -34,9 +34,14 @@ font-weight: bold;
   background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-// Nav Syles
+// Nav Styles
 .navbar{
   border: none;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
