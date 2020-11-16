@@ -22,7 +22,6 @@
 // Typography Styles
 h1, h2, h3 {
 font-family: 'Open Sans', sans-serif;
-font-style: italic;
 font-weight: bold;
 }
 
@@ -50,6 +49,17 @@ font-weight: bold;
   &:hover {
     color: white;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+     background-color: #FDB99B;
   }
 }
 
