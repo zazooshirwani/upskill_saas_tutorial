@@ -22,7 +22,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar, .home-callout{
-  // Gradient provided by @_ighosh at uiGradients.com
+  //Gradient provided by @_ighosh at uiGradients.com
   background: #A770EF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -31,7 +31,25 @@ font-family: 'Roboto Condensed', sans-serif;
 .navbar{
   border: none;
 }
-  
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}
+
 .home-callout {
   color:white;
   margin-top: -20px;
