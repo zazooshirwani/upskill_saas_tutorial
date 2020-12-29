@@ -28,9 +28,9 @@ font-weight: bold;
 // Background gradient
 .navbar, .home-callout{
   //Gradient provided by @_ighosh at uiGradients.com
-  background: #A770EF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // Nav Styles
@@ -70,4 +70,8 @@ font-weight: bold;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.alert-notice {
+  display: none;
 }
